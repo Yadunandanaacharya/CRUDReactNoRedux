@@ -45,7 +45,7 @@ class TransactionList extends Component {
     }
 
     render() {
-        return (
+        return  (
             <div>
                 <TransactionForm 
                 onAddOrEdit = {this.onAddOrEdit}
